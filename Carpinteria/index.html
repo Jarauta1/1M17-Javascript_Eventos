@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carpintería Mazarredo</title>
+    <link rel="icon" type="image/png" href="Copia de logo.svg" />
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body id="body">
+    <div id="producto">
+        <div id="brocha">
+            <h1>Brocha</h1>
+            <h2>3,57 €</h2>
+            <button onclick="addBrocha()">Añadir</button>
+            <button onclick="restBrocha()">Quitar</button>
+
+        </div>
+        <div id="llave">
+            <h1>Llave</h1>
+            <h2>6,59 €</h2>
+            <button onclick="addLlave()">Añadir</button>
+            <button onclick="restLlave()">Quitar</button>
+        </div>
+        <div id="martillo">
+            <h1>Martillo</h1>
+            <h2>18,26 €</h2>
+            <button onclick="addMartillo()">Añadir</button>
+            <button onclick="restMartillo()">Quitar</button>
+        </div>
+        <div id="tronco">
+            <h1>Tronco</h1>
+            <h2>27,45 €</h2>
+            <button onclick="addTronco()">Añadir</button>
+            <button onclick="restTronco()">Quitar</button>
+        </div>
+    </div>
+    <div>
+        <h1>CESTA</h1>
+        <div id="cesta">
+            <div id = "cestaProducto"> 
+                <div id="cestaBrocha"></div>
+                <div id="cestaBrochaImg"></div>
+            </div>
+            <div id = "cestaProducto">
+                <div id="cestaLlave"></div>
+                <div id="cestaLlaveImg"></div>
+            </div>
+            <div id = "cestaProducto">
+                <div id="cestaMartillo"></div>
+                <div id="cestaMartilloImg"></div>
+            </div>
+            <div id = "cestaProducto">
+                <div id="cestaTronco"></div>
+                <div id="cestaTroncoImg"></div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js">
+    </script>
+</body>
+
+</html>
